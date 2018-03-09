@@ -1,4 +1,4 @@
-Člana skupine sva Žan Žagar in David Zagoršek.
+Člani skupine smo Žan Žagar, David Zagoršek in Klemen Čulk.
 Problem, ki se ga boma lotila je stopnja korelacije med prodajo
 alkoholnih pijač v zvezni državi Iowa, in številom prometnih nesreč v zvezni dražvi Iowa.
 Glavni nabor podatkov za prodajo pijač v zvezni državi Iowa je:
