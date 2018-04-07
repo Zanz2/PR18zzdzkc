@@ -1,13 +1,13 @@
 # Vmesno poročilo o upravljenem delu 
-## Spodaj je trenutno samo nespremenjen template od github readme.md reportov
+## Iowa podatki o prometnih nesrečah in o prodaji alkohola
 
-One Paragraph of project description goes here
+Naša skupina poskuša iz dveh podatkovnih množic o prometnih nesrečah v zvezni državi Iowi, in eni večji podatkovni množici o prodaji alkohola v zvezni državi Iowi, najti korelacijo zvišane prodaje alkohola in večji pogostosti prometnih nesreč.
 
-## Getting Started
+## Priprava podatkov
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+Ker sta dve od treh podatkovnih množic bistveno pre velike (tudi za github), smo se prvo lotili podatke filtrirati, da zmanjšamo velikost, in število vnosov.
 
-### Prerequisites
+### Postopek
 
 What things you need to install the software and how to install them
 
