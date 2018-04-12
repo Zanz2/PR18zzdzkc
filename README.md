@@ -1,11 +1,11 @@
 # Vmesno poročilo o upravljenem delu 
-## Iowa podatki o prometnih nesrečah in o prodaji alkohola
+## Iowa podatki o prometnih nesrečah in prodaji alkohola
 
-Naša skupina poskuša iz dveh podatkovnih množic o prometnih nesrečah v zvezni državi Iowi, in eni večji podatkovni množici o prodaji alkohola v zvezni državi Iowi, najti korelacijo zvišane prodaje alkohola in večji pogostosti prometnih nesreč.
+Naša skupina poskuša iz dveh podatkovnih množic o prometnih nesrečah v zvezni državi Iowi, in eni podatkovni množici o prodaji alkohola v zvezni državi Iowi, najti korelacijo zvišane prodaje alkohola in večji pogostosti prometnih nesreč.
 
 ## Opažanja
 
-Ugotovili smo da je v podatkih veliko atributov, ki jih nebomo uporabljali (razni IDji, in neznane kategorije.
+Ugotovili smo da je v podatkih veliko atributov, ki jih nebomo uporabljali (razni IDji, in neznane kategorije).
 
 ### Priprava podatkov
 
@@ -13,6 +13,8 @@ Ker sta dve od treh podatkovnih množic bistveno pre velike (tudi za github), sm
 
 
 ### Pomembnejši atributi
+
+Iz podatkovnih množic bomo upoštevali naslednje atribute:
 
 Crash1: ID,Crash date, Crash day, time string, drug alcohol (stopnje), weather (stopnje 0-10, 10 najhuje), paved road (0 ali 1), fatalities, injuries, property damage, x in y koordinati.
 <br />
@@ -23,7 +25,7 @@ Liquor: Date, Invoice number (kot id),city,sale (dollars), volume sold (litres) 
 
 ### Zastavljena vprašanja
 
-Glede na to, da je možno veliko število kombinacij atributov, smo si za začetek zastavili vprašanja (vezana na lokacijo zvezne države Iowa), ki so mogoče malo bolj osnovna, in sicer nas zanima:
+Glede na to, da je možno veliko število kombinacij atributov, smo si za začetek zastavili vprašanja (vezana samo na zvezno državo Iowa), ki so mogoče malo bolj osnovna, in sicer nas zanima:
 - Če obstaja korelacija z visoko prodajo alkohola, in številom prometnih nesreč v določenih mesecih.
 - Koliko od vseh prometnih nesreč na mesec je povezanih z alkoholom, in koliko od teh je resnejših (velika škoda).
 - V katerem področju se zgodi največ nesreč, in kje se zgodi največ nesreč povezanih z alkoholom.
