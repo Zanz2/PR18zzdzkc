@@ -12,4 +12,8 @@ Ugotovili smo da je v podatkih veliko atributov, ki jih nebomo uporabljali (razn
 Ker sta dve od treh podatkovnih množic bistveno pre velike (tudi za github), smo se prvo lotili podatke filtrirati, da zmanjšamo velikost, in število vnosov.
 
 
+### Pomembnejši atributi
 
+Crash1: ID,Crash date, Crash day, time string, city name, drug alcohol, weather, paved road, fatalities, injuries, property damage, x in y koordinati.
+Crash2: ID,Driver age, x in y koordinati,drug result, alcohol result,damage, crash severity, drug or alcohol related, fatalities, crash year. ; problem ker ni datum, ampak samo leto.
+Liquor: Date, Invoice number (kot id),city,sale (dollars), volume sold (litres)
