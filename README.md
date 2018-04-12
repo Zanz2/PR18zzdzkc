@@ -15,8 +15,8 @@ Ker sta dve od treh podatkovnih množic bistveno pre velike (tudi za github), sm
 ### Pomembnejši atributi
 
 Crash1: ID,Crash date, Crash day, time string, city name, drug alcohol, weather, paved road, fatalities, injuries, property damage, x in y koordinati.
-__
+<br />
 
 Crash2: ID,Driver age, x in y koordinati,drug result, alcohol result,damage, crash severity, drug or alcohol related, fatalities, crash year. ; problem ker ni datum, ampak samo leto.
-__
+<br />
 Liquor: Date, Invoice number (kot id),city,sale (dollars), volume sold (litres)
